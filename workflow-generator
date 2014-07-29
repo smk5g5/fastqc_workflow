@@ -336,7 +336,8 @@ def main():
 
     # read the config file and add those settings to the option object
     conf = ConfigParser.SafeConfigParser({'username': getpass.getuser()})
-    r = conf.read(["conf/local.conf", "conf/%s/site.conf" % options.exec_env])
+    r = conf.read([os.environ['HOME'] + "/.soybean-workflow.conf", \
+                  "conf/%s/site.conf" % options.exec_env])
     if len(r) != 2:
         logger.fatal("Unable to read configuration files for that environment")
         sys.exit(1)
