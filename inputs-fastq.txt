@@ -1,0 +1,4 @@
+irods://taccCorralRes/iplant/home/shared/digbio/fastqc_test/LG04-4717_GCCAAT_L003_R1.fastq.gz
+irods://taccCorralRes/iplant/home/shared/digbio/fastqc_test/LG04-4717_GCCAAT_L003_R2.fastq.gz
+irods://taccCorralRes/iplant/home/shared/digbio/fastqc_test/LG98-1605_CTTGTA_L004_R1.fastq.gz
+irods://taccCorralRes/iplant/home/shared/digbio/fastqc_test/LG98-1605_CTTGTA_L004_R2.fastq.gz
