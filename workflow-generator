@@ -163,7 +163,11 @@ def generate_site_catalog():
                         top_dir = conf.get("local", "top_dir"),
                         work_dir = conf.get("local", "work_dir"),
                         pegasus_bin = conf.get("local", "pegasus_bin"),
-                        irods_bin = conf.get("local", "irods_bin")))
+                        irods_bin = conf.get("local", "irods_bin"),
+                        tacc_allocation = conf.get("tacc", "allocation"),
+                        tacc_username = conf.get("tacc", "username"),
+                        tacc_storage_group = conf.get("tacc", "storage_group"),
+              ))
     outf.close()
    
 
